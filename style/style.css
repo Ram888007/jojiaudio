@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 241, 255, 1) 0%,
+    rgba(16, 9, 121, 1) 50%,
+    rgba(0, 202, 255, 1) 100%
+  );
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+.white {
+  background-color: white;
+  border-radius: 25px;
+}
+.under-btn {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin-top: 20px;
+}
+.img {
+  display: flex;
+  justify-content: center;
+}
+.img img {
+  width: 85%;
+  border-radius: 25px;
+  padding: 10px;
+}
+.name {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.inputtype {
+  display: flex;
+  justify-content: center;
+}
+.inputtype input {
+  width: 900px;
+  margin-bottom: 80px;
+}
+
+.footer-btn {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+#voldown {
+  border: none;
+  margin-left: 200px;
+}
+#voldown img {
+  width: 80px;
+}
+#play {
+  border: none;
+}
+#play img {
+  width: 80px;
+}
+#pause {
+  border: none;
+}
+#pause img {
+  width: 80px;
+}
+
+#volup {
+  border: none;
+  margin-right: 200px;
+}
+#volup img {
+  width: 80px;
+}

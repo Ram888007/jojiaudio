@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="white">
+        <div class="under-btn">
+          <div style="font-size: 2rem" class="info">&#9660;</div>
+          <div
+            style="font-size: 2rem; font-family: 'Hubballi', cursive"
+            class="ramaud"
+          >
+            RAMaudio
+          </div>
+          <audio
+            id="audio"
+            style="display: none"
+            autoplay
+            src="./song/Joji - Will He.mp3"
+          ></audio>
+          <div class="three-dots">
+            <img style="width: 42px" src="./img/Без названия (3).png" alt="" />
+          </div>
+        </div>
+        <div class="img">
+          <img src="./img/joji_tongues-1280x720.jpg" alt="" />
+        </div>
+        <div class="name">
+          <div class="h1">
+            <h1
+              style="
+                font-size: 4rem;
+                margin-top: 0;
+                margin-bottom: 0;
+                font: 800;
+                font-family: 'Oswald', sans-serif;
+              "
+            >
+              WILL HE
+            </h1>
+          </div>
+          <div class="p">
+            <p style="font-size: 2rem; margin-top: 0; color: gray">JOJI</p>
+          </div>
+        </div>
+        <div class="inputtype">
+          <input type="range" min="0" id="cur" max="202" />
+        </div>
+        <div class="footer-btn">
+          <button id="voldown">
+            <img src="./img/Без названия (1).png" alt="" />
+          </button>
+          <button id="play">
+            <img src="./img/Без названия (2).png" alt="" />
+          </button>
+          <button id="pause">
+            <img src="./img/60734.png" alt="" />
+          </button>
+          <button id="volup">
+            <img src="./img/Без названия.png" alt="" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="./scrpt/jquery-3.6.0.min.js"></script>
+    <script src="./scrpt/script.js"></script>
+  </body>
+</html>
